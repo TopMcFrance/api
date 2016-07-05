@@ -1,0 +1,24 @@
+{
+    "name": "topmcfrance/api-client",
+    "description": "Api client for PHP",
+    "keywords": ["topmcfrance", "vote", "minecraft"],
+    "type": "library",
+    "homepage": "https://github.com/TopMcFrance/api",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jewome62",
+            "email": "jewome62@gmail.com",
+            "role": "Contributor"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "ext-curl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "TopMcFrance\\Api\\": "src/"
+        }
+    }
+}
