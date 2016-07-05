@@ -1,6 +1,6 @@
 {
     "name": "topmcfrance/api-client",
-    "description": "Api client for PHP",
+    "description": "TopMcFrance Api client for PHP",
     "keywords": ["topmcfrance", "vote", "minecraft"],
     "type": "library",
     "homepage": "https://github.com/TopMcFrance/api",
