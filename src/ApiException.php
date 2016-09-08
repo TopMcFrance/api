@@ -7,7 +7,7 @@ namespace TopMcFrance\Api;
  *
  * @author Jérôme Desjardins <hello@jewome62.eu>
  */
-class ApiException extends Exception
+class ApiException extends \Exception
 {
     protected $useDate = null;
     

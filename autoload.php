@@ -10,7 +10,6 @@ if (version_compare(PHP_VERSION, '5.4.0', '<')) {
 }
 
 /**
- * Register the autoloader for the Facebook SDK classes.
  * Based off the official PSR-4 autoloader example found here:
  * https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-4-autoloader-examples.md
  *

@@ -26,9 +26,6 @@ class VoteChecker
     public function __construct($serverId)
     {
         $this->serverId = $serverId;
-        if(!function_exists('curl_version')){
-            throw new \RuntimeException('Curl must be install locally');
-        }
     }
     
     /**
@@ -70,16 +67,13 @@ class VoteChecker
      * @return string
      */
     protected function getResponse($code){
-        $ch = curl_init();
-        curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
-        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-        curl_setopt($ch, CURLOPT_URL, $this->buildURI($code));
 
-        $result = curl_exec($ch);
+        $result = file_get_contents($this->buildURI($code));
 
-        curl_close($ch);
-        
-        return json_decode($result, true);
+        if($result === false){
+             throw new \Exception("Impossible to accès to TopMcFrance");
+        }
+        return json_decode($result);
     }
     
     

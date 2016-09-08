@@ -1,16 +1,17 @@
 Top MC France - Vote Checker
 ===================
 
-
 Check a code to vote on the site of TopMcFrance before giving a reward for his vote.
  
- For each vote on the site TopMcFrance with enabled API.  The site generates a verification code to enter the site. This class allows interogger TopMcFrance the validity of a code.
+For each vote on the site TopMcFrance with enabled API.  
+The site generates a verification code to enter the site. 
+This class allows check TopMcFrance about the validity of a code.
  
- Each generated code is unique to the server and can only be used one time.
+Each generated code is unique to the server and can only be used one time.
 
 The Api is currently on developement.
 
-Instalation by composer
+Installation by composer
 -------------
 
 Add into you composer.json : 
@@ -20,10 +21,9 @@ Add into you composer.json :
 ```
 
 
-
-Instalation by autoload
+Installation by autoload
 -------------
-If you havn't composer, you can include the autoload.php into you webpage
+If you haven't composer, you can include the autoload.php into you webpage
 ```
 require_once "topmcfrance-api/autoload.php";
 ```
