@@ -3,6 +3,11 @@ Top MC France - Vote Checker
 
 Check a code to vote on the site of TopMcFrance before giving a reward for his vote.
  
+[![Build Status](https://scrutinizer-ci.com/g/TopMcFrance/api/badges/build.png?b=master)](https://scrutinizer-ci.com/g/TopMcFrance/api/build-status/master)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/TopMcFrance/api/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/TopMcFrance/api/?branch=master)
+[![Code Coverage](https://scrutinizer-ci.com/g/TopMcFrance/api/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/TopMcFrance/api/?branch=master)
+[![StyleCI](https://styleci.io/repos/62471634/shield)](https://styleci.io/repos/62471634)
+
 For each vote on the site TopMcFrance with enabled API.  
 The site generates a verification code to enter the site. 
 This class allows check TopMcFrance about the validity of a code.
