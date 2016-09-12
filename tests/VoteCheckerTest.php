@@ -1,6 +1,6 @@
 <?php
 
-namespace TopMcFrance\Api;
+namespace Tests\TopMcFrance\Api;
 
 use PHPUnit\Framework\TestCase;
 use TopMcFrance\Api\VoteChecker;
