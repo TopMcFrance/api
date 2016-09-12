@@ -22,7 +22,7 @@ Installation by composer
 Add into you composer.json : 
 
 ```
-"topmcfrance/api-client": "dev-master"
+"topmcfrance/api-client": "^1.0"
 ```
 
 
