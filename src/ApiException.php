@@ -51,10 +51,10 @@ class ApiException extends \Exception
     public static function alreadyUsed($code, $response){
         $exception = new self(sprintf('Code %s has already used at %s.',
             $code,
-            $response->use_date
+            $response->date_use
         ));
         
-        $exception->useDate = $response->use_date;
+        $exception->useDate = $response->date_use;
         $exception->baseException($response);
         
         return $exception;
